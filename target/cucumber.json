@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Verify multiple window working",
+        "description": "",
+        "id": "this-is-popoup-alert-functionality;verify-multiple-window-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4547513400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Open mailrediff application",
+            "match": {
+              "location": "step_class.open_mailrediff_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6690991000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on login page to go another page",
+            "match": {
+              "location": "step_class.click_on_login_page_to_go_another_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Air"
+          }
+        ]
+      }
+    ],
+    "name": "This is popoup alert functionality",
+    "description": "",
+    "id": "this-is-popoup-alert-functionality",
+    "keyword": "Feature",
+    "uri": "popup.feature"
+  }
+]
